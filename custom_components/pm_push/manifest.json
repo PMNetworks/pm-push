@@ -1,0 +1,23 @@
+{
+  "domain": "pm_push",
+  "name": "PM Push",
+  "codeowners": [
+    "@D0GC"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "websocket_api",
+    "person"
+  ],
+  "documentation": "https://github.com/PMNetworks/pm-push",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/PMNetworks/pm-push/issues",
+  "loggers": [
+    "custom_components.pm_push"
+  ],
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "2026.11.2"
+}
